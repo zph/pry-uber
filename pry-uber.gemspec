@@ -18,14 +18,14 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'pry'
+  spec.add_runtime_dependency 'pry', '~> 0.9.12.6'
   spec.add_runtime_dependency 'pry-rails'
   spec.add_runtime_dependency 'pry-doc'
   spec.add_runtime_dependency 'pry-git'
   spec.add_runtime_dependency 'pry-stack_explorer'
   spec.add_runtime_dependency 'pry-remote'
-  spec.add_runtime_dependency 'pry-debugger'
-  spec.add_runtime_dependency 'hirb'
+  spec.add_runtime_dependency 'pry-debugger', '~> 0.2.2'
+  spec.add_runtime_dependency 'hirb', '~> 0.7.1'
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
 end
