@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'pry/uber/version'
+require 'pry-uber'
 
 Gem::Specification.new do |spec|
   spec.name          = "pry-uber"
-  spec.version       = Pry::Uber::VERSION
+  spec.version       = PryUber::VERSION
   spec.authors       = ["Zander Hill"]
   spec.email         = ["Zander@civet.ws"]
   spec.summary       = %q{All the good stuff for Pry without Awesome Print.}
