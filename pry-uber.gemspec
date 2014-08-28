@@ -24,7 +24,14 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'pry-git'
   spec.add_runtime_dependency 'pry-stack_explorer'
   spec.add_runtime_dependency 'pry-remote'
-  spec.add_runtime_dependency 'pry-debugger', '~> 0.2.2'
+  case RUBY_VERSION
+  when /^2/
+    spec.add_runtime_dependency 'pry-byebug'
+  when /^1\.9/
+    spec.add_runtime_dependency 'pry-debugger'
+  else
+  end
+
   spec.add_runtime_dependency 'hirb', '~> 0.7.1'
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
