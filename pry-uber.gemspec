@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "pry-uber"
   spec.version       = PryUber::VERSION
   spec.authors       = ["Zander Hill"]
-  spec.email         = ["Zander@civet.ws"]
-  spec.summary       = %q{All the good stuff for Pry without Awesome Print.}
-  spec.description   = %q{Good pry stuff w/o awesome print.}
+  spec.email         = ["zander@xargs.io"]
+  spec.summary       = %q{All the good stuff for Pry.}
+  spec.description   = %q{Good pry stuff.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
