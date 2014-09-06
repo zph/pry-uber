@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pry-uber (0.0.3)
+    pry-uber (0.0.4)
       hirb (~> 0.7.1)
       pry
       pry-byebug
