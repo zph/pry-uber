@@ -1,6 +1,10 @@
 # Pry::Uber
 
-TODO: Write a gem description
+A gem so amazing, it needs no introduction!
+
+Wait, no, prob still needs one.
+
+Pry-Uber is a meta gem to pull in the pry tools I love.
 
 ## Installation
 
@@ -18,11 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    * Use pry.
+    * Profit.
+    * Try out the included gem `repl_rake`
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/pry-uber/fork )
+1. Fork it ( http://github.com/zph/pry-uber/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
