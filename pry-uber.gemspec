@@ -24,6 +24,9 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'pry-git'
   spec.add_runtime_dependency 'pry-stack_explorer'
   spec.add_runtime_dependency 'pry-remote'
+  spec.add_runtime_dependency 'pry-coolline'
+  spec.add_runtime_dependency 'pry-rescue'
+
   spec.add_runtime_dependency 'repl_rake'
   case RUBY_VERSION
   when /^2/

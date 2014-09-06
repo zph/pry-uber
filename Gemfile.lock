@@ -5,10 +5,12 @@ PATH
       hirb (~> 0.7.1)
       pry
       pry-byebug
+      pry-coolline
       pry-doc
       pry-git
       pry-rails
       pry-remote
+      pry-rescue
       pry-stack_explorer
       repl_rake
 
@@ -23,6 +25,7 @@ GEM
       slop (~> 3.6)
     coderay (1.1.0)
     columnize (0.8.9)
+    coolline (0.4.4)
     debug_inspector (0.0.2)
     debugger-linecache (1.2.0)
     diff-lcs (1.2.5)
@@ -32,6 +35,7 @@ GEM
       mime-types (~> 1.15)
       posix-spawn (~> 0.3.6)
     hirb (0.7.2)
+    interception (0.5)
     method_source (0.8.2)
     mime-types (1.25.1)
     posix-spawn (0.3.9)
@@ -42,6 +46,8 @@ GEM
     pry-byebug (2.0.0)
       byebug (~> 3.4)
       pry (~> 0.10)
+    pry-coolline (0.2.4)
+      coolline (~> 0.3)
     pry-doc (0.6.0)
       pry (~> 0.9)
       yard (~> 0.8)
@@ -54,6 +60,9 @@ GEM
     pry-remote (0.1.8)
       pry (~> 0.9)
       slop (~> 3.0)
+    pry-rescue (1.4.1)
+      interception (>= 0.5)
+      pry
     pry-stack_explorer (0.4.9.1)
       binding_of_caller (>= 0.7)
       pry (>= 0.9.11)
